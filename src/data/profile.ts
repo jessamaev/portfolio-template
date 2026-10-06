@@ -46,19 +46,19 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Your Name',
-  firstName: 'Your Name',
+  name: 'Jessa Mae Viñas',
+  firstName: 'Jessa',
   handle: '@yourhandle',
   role: 'PLACEHOLDER - your title',
   avatarSrc: '/avatar.svg',
   verifiedLabel: 'PLACEHOLDER - what the tick means (e.g. a certification)',
-  email: 'you@example.com',
-  location: 'PLACEHOLDER - your city or timezone',
+  email: 'jessavinas.va@gmail.com',
+  location: 'Quezon City, Philippines',
   // Pick any icon from https://phosphoricons.com and import it above.
   stats: [
     { value: '0 yrs', label: 'PLACEHOLDER', Icon: Briefcase },
     { value: '#000', label: 'PLACEHOLDER', Icon: SealCheck },
-    { value: 'GMT+0', label: 'PLACEHOLDER', Icon: Clock },
+    { value: 'GMT+8', label: 'PLACEHOLDER', Icon: Clock },
   ],
   // The intro types this line, then flies it into the Home headline.
   // Keep it short: two halves, 5-8 words total.
